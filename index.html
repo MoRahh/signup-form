@@ -5,46 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="bg"></div>
-    <div class="flex-container">
-    <div class="flex1">
-        <img class="bg" src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="">
-        <img class="logo" src="images/odin-lined.png" alt="">
-        <p>Photo by <span>Haire West </span>On <span>Unsplash.</span></p>
+    <div class="img">
+        <div class="img-desc">
+            <p class="img-info">Photo by Blake Verdoorn</p>
+            <a href="https://unsplash.com/photos/25xggax4bSA">
+                <p class="img-info">https://unsplash.com/photos/25xggax4bSA</p>
+            </a>
+        </div>
     </div>
 
-    <div class="flex2">
-        <p>This is not a real online service! you know you need something like this in your life to help realize your deepest dreams. signup now to get started.</p>
-        <p>you know you want to.</p>
+    <div class="form">
+        <div class="form-info">
+            <h1>
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started. <br> <br> You know you want to.
+            </h1>
+        </div>
 
-        <form action="#">
-            <p>Lets do this!</p>
-
+        <form  action="">
+            <h1>Let's do this.</h1>
+            <div class="inputs">
+                <div class="first-name">
+                    <input type="text" class="form-input" id="first-name" placeholder="First Name">
+                    <label for="first-name" class="form-label">First Name</label>
+                </div>
             
-            <label for="firstName">First Name</label>
-            <input id="firstName" type="text" placeholder="Thor" >
+            <div class="input">
+                <div class="last-name">
+                    <input type="text" class="form-input" id="last-name" placeholder="Last Name">
+                    <label for="last-name" class="form-label">Last Name</label>
+                </div>
+            </div>
+        </div>
 
-            
-            <label for="lastName">Last Name</label>
-            <input type="text" placeholder="Odinson" id="lastName" >
-
-            <label for="email">Email</label>
-            <input type="email" placeholder="Email" id="email" >
-
-            <label for="phoneNo">Phone Number</label>
-            <input type="text" placeholder="" id="phoneNo" >
-
-            <label for="password">Password</label>
-            <input type="password" placeholder="Password" id="password" >
-
-
-
-            <label for="password2">Confirm Password</label>
-            <input type="text" id="password2" placeholder="Confirm your password">
         </form>
-    </div>
     </div>
 </body>
 </html>
